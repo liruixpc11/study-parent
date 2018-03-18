@@ -96,6 +96,8 @@ public class CalculatorPane extends GridPane {
     private void onEq(ActionEvent event) {}
 
     public static Scene createScene() {
-        return new Scene(new CalculatorPane(), 500, 400);
+        Scene scene = new Scene(new CalculatorPane(), 500, 400);
+        scene.getStylesheets().add(CalculatorPane.class.getResource("style.css").toExternalForm());
+        return scene;
     }
 }

@@ -1,0 +1,12 @@
+.none {
+    -fx-background-color: #ffffff;
+}
+
+.related {
+    -fx-background-color: lightblue;
+}
+
+.selected {
+    -fx-background-color: lightgreen;
+}
+
