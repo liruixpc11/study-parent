@@ -10,6 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>javafx-study-basic</module>
+        <module>java-study-basic</module>
     </modules>
 
     <properties>

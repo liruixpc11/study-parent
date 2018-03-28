@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person-list>
+    <person>
+        <name>Li Rui</name>
+        <age>28</age>
+    </person>
+    <student gender="FEMALE">
+        <name>Jiang Mengyang</name>
+        <age>27</age>
+        <studentNumber>2018001</studentNumber>
+    </student>
+</person-list>
