@@ -7,7 +7,6 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 
-import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 

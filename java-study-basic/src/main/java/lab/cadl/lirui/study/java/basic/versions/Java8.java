@@ -61,14 +61,5 @@ public class Java8 {
                 .withLocale(Locale.CHINA)
                 .withZone(ZoneId.systemDefault());
         System.out.println(formatter.format(clock.instant()));
-
-        TemporalAccessor time = formatter.parse("2018年3月28日 上午10时56分16秒");
-        System.out.println(time);
-
-        LocalDateTime localDateTime = LocalDateTime.parse("2018年3月28日 上午10时56分16秒", formatter);
-        System.out.println(localDateTime);
-
-        System.out.println(localDateTime.atZone(zone1));
-        System.out.println(localDateTime.atZone(zone1).toInstant());
     }
 }

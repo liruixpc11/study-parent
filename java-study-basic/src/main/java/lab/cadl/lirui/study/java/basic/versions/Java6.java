@@ -1,7 +1,5 @@
 package lab.cadl.lirui.study.java.basic.versions;
 
-import javafx.beans.property.SimpleListProperty;
-
 import javax.tools.*;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
